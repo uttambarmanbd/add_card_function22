@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>card</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+<body>
+    <h2 class="md:text-4xl text-2xl text-center  my-4 p-4 bg-sky-400 rounded-2xl md:w-7/12 md:bg-green-400 w-full m-auto">Dom Shoping Cart</h2>
+    <div class=" md:grid grid-cols-3 w-8/12 mx-auto my-16 gap-5">
+        <div class="  col-span-2 boder p-4">
+            <div class="md:flex text-center  justify-between p-4 bg-blue-200 items-center mb-4">
+                <h2 id="phn1" >Iphone 10</h2>
+                <h2>Price <span id="dam1">50000</span></h2>
+                <button onclick="btn1()" class="px-5 py-2 bg-purple-700  text-white rounded font-semibold">Add to cart</button>
+            </div>
+            <div class="md:flex text-center justify-between p-4 bg-blue-300 items-center mb-4">
+                <h2 id="phn2">Iphone 11</h2>
+                <h2>Price <span id="dam2">70000</span></h2>
+                <button onclick="btn2()" class="px-5 py-2 bg-purple-700  text-white rounded font-semibold">Add to cart</button>
+            </div>
+            <div class=" md:flex text-center justify-between p-4 bg-blue-400 items-center mb-4">
+                <h2 id="phn3">Iphone 12</h2>
+                <h2>Price <span id="dam3">90000</span></h2>
+                <button onclick="btn3()" class="px-5 py-2 bg-purple-700 text-white rounded font-semibold">Add to cart</button>
+            </div>
+        </div>
+        <div class="boder p-4">
+            <h2>Price: <span id="stor">00</span></h2>
+            <ul id="add">
+
+            </ul>
+        </div>
+    </div>
+
+
+    <script src="add.js"></script>
+    <script src="function.js"></script>
+</body>
+</html>
